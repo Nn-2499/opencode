@@ -18,8 +18,7 @@
 ---
 ## 🚀 Quick Install 🔸 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/Nn-2499/opencode/main/install.sh -o install.sh
-bash install.sh
+curl -fsSL https://raw.githubusercontent.com/Nn-2499/opencode/main/install.sh | bash 
 ```
 ## เข้าใช้งาน OpenCode 🔹​
 ```bash
