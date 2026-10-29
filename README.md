@@ -22,7 +22,17 @@ curl -fsSL https://raw.githubusercontent.com/Nn-2499/opencode/main/install.sh | 
 ```
 ## เข้าใช้งาน OpenCode 🔹​
 ```bash
-proot-distro login ubuntu && opencode 
+proot-distro login ubuntu 
+```
+```bash
+opencode
+```
+## เพิ่มเติมหลังวางคำสั่งด้านล่างนี้ลงในฝั่ง(netive termux)+พิมพ์ ls หรือ (c)🔸จะเห็นโฟเดอร์ "u_root" ใน (Ubuntu) สำหรับแก้ไฟล์ (Manual) และเข้า ubuntu ด้วย(u)🔹 
+```bash
+ln -s /data/data/com.termux/files/usr/var/lib/proot-distro/containers/ubuntu/rootfs/root $HOME/u_root
+echo 'alias u="proot-distro login ubuntu"' >> ~/.bashrc
+echo 'alias c="cd ~/u_root && ls -la"' >> ~/.bashrc
+source ~/.bashrc
 ```
 ---
 📄 License
