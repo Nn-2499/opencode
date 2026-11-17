@@ -9,6 +9,7 @@ export NVM_DIR="$HOME/.nvm"
 echo "--- Node.js ---" && node -v
 echo "--- npm ---"     && npm -v
 echo "--- pnpm ---"    && pnpm -v
+echo "--- bun ---"     && bun -v
 echo "--- git ---"     && git --version
 
 echo "--- opencode ---"
