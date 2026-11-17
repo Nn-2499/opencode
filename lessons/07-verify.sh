@@ -10,7 +10,7 @@ echo "--- Node.js ---" && node -v
 echo "--- npm ---"     && npm -v
 echo "--- pnpm ---"    && pnpm -v
 echo "--- bun ---"     && bun -v
-echo "--- git ---"     && git --version
+echo "--- git ---"     && git --version 
 
 echo "--- opencode ---"
 if command -v opencode >/dev/null 2>&1; then
