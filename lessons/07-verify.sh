@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "===== [7/7] Verification ====="
+echo "===== [8/8] Verification ====="
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
